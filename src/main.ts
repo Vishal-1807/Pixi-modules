@@ -13,6 +13,7 @@ await app.init({
   resizeTo: window, // auto resize with window
 })
 
+//example texture
 await Assets.load('/assets/Spin.png')
 const buttonBgTexture = Sprite.from('/assets/Spin.png')
 
